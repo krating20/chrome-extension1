@@ -1,5 +1,6 @@
 # chrome-extension1
 
-### based on  https://www.freecodecamp.org/news/building-chrome-extension/
-### chrome extensions -> dev mode -> load unpacked->select entire folder 
-- [ ] swtich to kanye api
+<p>based on  https://www.freecodecamp.org/news/building-chrome-extension/</p>
+<p>chrome extensions -> dev mode -> load unpacked->select entire folder </p>
+
+- [X] swtich to kanye api
