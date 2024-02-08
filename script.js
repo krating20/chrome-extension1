@@ -1,9 +1,13 @@
 async function fetchData() {
-    const res=await fetch ("https://api.coronavirus.data.gov.uk/v1/data");
-    const record=await res.json();
-    document.getElementById("date").innerHTML=record.data[0].date;
-    document.getElementById("areaName").innerHTML=record.data[0].areaName;
-    document.getElementById("latestBy").innerHTML=record.data[0].latestBy;
-    document.getElementById("deathNew").innerHTML=record.data[0].deathNew;
+
+    const url = 'https://api.kanye.rest/';
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('quote').textContent = data.quote;
+  })
+  .catch(error => console.error(error));
 }
 fetchData();
+
